@@ -23,25 +23,25 @@
             <div class="statistic">
                 <p class="statistic-title">Strenght</p>
                 <div class="statistic-value">
-                    <p class="statistic-number">768</p>
+                    <p class="statistic-number" data-statistic="strenght">768</p>
                 </div>
             </div>
             <div class="statistic">
                 <p class="statistic-title">Power</p>
                 <div class="statistic-value">
-                    <p class="statistic-number">630</p>
+                    <p class="statistic-number" data-statistic="power">630</p>
                 </div>
             </div>
             <div class="statistic">
                 <p class="statistic-title">Energy</p>
                 <div class="statistic-value">
-                    <p class="statistic-number">289</p>
+                    <p class="statistic-number" data-statistic="energy">289</p>
                 </div>
             </div>
             <div class="statistic">
                 <p class="statistic-title">Speed</p>
                 <div class="statistic-value">
-                    <p class="statistic-number">597</p>
+                    <p class="statistic-number" data-statistic="speed">597</p>
                 </div>
             </div>
         </section>
@@ -52,45 +52,45 @@
                     <div class="component">
                         <label for="" class="component-title">Arms</label>
                         <div class="controler">
-                            <buttom class="controler-adjustment">-</buttom>
-                            <input type="text" class="controler-counter" value="00">
-                            <buttom class="controler-adjustment">+</buttom>
+                            <buttom class="controler-adjustment" data-controler="-" data-equipment="arms">-</buttom>
+                            <input type="text" class="controler-counter" value="0" data-counter >
+                            <buttom class="controler-adjustment" data-controler="+" data-equipment="arms">+</buttom>
                         </div>
                     </div>
                     <hr class="line">
                     <div class="component">
                         <label for="" class="component-title">Shielding</label>
                         <div class="controler">
-                            <buttom class="controler-adjustment">-</buttom>
-                            <input type="text" class="controler-counter" value="00">
-                            <buttom class="controler-adjustment">+</buttom>
+                            <buttom class="controler-adjustment" data-controler="-" data-equipment="shielding">-</buttom>
+                            <input type="text" class="controler-counter" value="0" data-counter>
+                            <buttom class="controler-adjustment" data-controler="+" data-equipment="shielding">+</buttom>
                         </div>
                     </div>
                     <hr class="line">
                     <div class="component">
                         <label for="" class="component-title">Cores</label>
                         <div class="controler">
-                            <buttom class="controler-adjustment">-</buttom>
-                            <input type="text" class="controler-counter" value="00">
-                            <buttom class="controler-adjustment">+</buttom>
+                            <buttom class="controler-adjustment" data-controler="-" data-equipment="cores">-</buttom>
+                            <input type="text" class="controler-counter" value="0" data-counter>
+                            <buttom class="controler-adjustment" data-controler="+" data-equipment="cores">+</buttom>
                         </div>
                     </div>
                     <hr class="line">
                     <div class="component">
-                        <label for="" class="component-title">Arms</label>
+                        <label for="" class="component-title">Guns</label>
                         <div class="controler">
-                            <buttom class="controler-adjustment">-</buttom>
-                            <input type="text" class="controler-counter" value="00">
-                            <buttom class="controler-adjustment">+</buttom>
+                            <buttom class="controler-adjustment" data-controler="-" data-equipment="guns">-</buttom>
+                            <input type="text" class="controler-counter" value="0" data-counter>
+                            <buttom class="controler-adjustment" data-controler="+" data-equipment="guns">+</buttom>
                         </div>
                     </div>
                     <hr class="line">
                     <div class="component">
                         <label for="" class="component-title">Rockets</label>
                         <div class="controler">
-                            <buttom class="controler-adjustment">-</buttom>
-                            <input type="text" class="controler-counter" value="00">
-                            <buttom class="controler-adjustment">+</buttom>
+                            <buttom class="controler-adjustment" data-controler="-" data-equipment="rockets">-</buttom>
+                            <input type="text" class="controler-counter" value="0" data-counter>
+                            <buttom class="controler-adjustment" data-controler="+" data-equipment="rockets">+</buttom>
                         </div>
                     </div>
                 </div>
@@ -98,5 +98,6 @@
             </form>
         </section>
     </main>
+    <script src="./js/main.js"></script>
 </body>
 </html>
